@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+html {
+    height: 100vw;
+    width: 100;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: top;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #E0E8FF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 33%;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.img-top {
+    width: 100%;
+    display: block;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.titulo-desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-desc h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo-desc p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.plano {
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.plano-escolha {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    gap: 10px;
+    padding-left: 18px;
+    text-align: left;
+}
+
+.plano a {
+    display: block;
+    margin-right: 18px;
+    font-weight: bold;
+    color: blue;
+}
+
+.desc {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.desc p {
+    margin: 0px;
+    text-align: left;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.pagamento {
+    background-color: hsl(245, 75%, 52%);
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
+
+.cancel {
+    background-color: white;
+    height: 40px;
+    border-radius: 10px;
+    color: grey;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+ 

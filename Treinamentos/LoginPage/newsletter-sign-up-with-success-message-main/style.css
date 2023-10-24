@@ -1,0 +1,57 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    background: #242444;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-branco {
+    width: 100%;
+    height: 65%;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 24px;
+    gap: 32px
+}
+
+.bloco-esquerda {
+    padding: 16px 32px;
+    display: grid;
+    align-items: center;
+    gap: 8px;
+}
+
+.bloco-esquerda h1 {
+    display: block;
+    font-weight: 800;
+    text-align: center;
+    font-size: 60px;
+}
+
+.bloco-esquerda p {
+    font-size: 16px;;
+    font-weight: 1000;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+    text-align: left;
+}
+
+.bloco-direita img {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}

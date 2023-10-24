@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(150deg, #FFF 0%, #FFF4F4 84.51%);
+}
+
+main {
+    display: flex;
+
+    flex-shrink: 0;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 165px;
+    padding-right: 221px;
+}
+
+.logo {
+    display: block;
+    margin-top: 74px;
+    margin-bottom: 136px;
+}
+
+#were {
+    color: #CE9898;
+    font-family: Josefin Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 17.321px;
+    margin-bottom: 1px;
+}
+
+#text {
+    color: #423A3A;
+    font-family: Josefin Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 71px;
+    letter-spacing: 17.321px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.titulo {
+    display: inline; 
+}
+
+.descricao {
+    color: #CE9898;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.descricao p {
+    margin-top: 0px;
+}
+
+form {
+
+}
+
+input {
+    width: 410px;
+    height: 56px;
+    color: #CE9898;
+    border-radius: 28px;
+    border: 1px solid #CE9898;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 32px;
+}
+
+.caixa-texto {
+    display: flex;
+    margin-bottom: 152px;
+}
+
+.botao {
+    border: none;
+    width: 100px;
+    height: 56px;
+    color: #ffffff;
+    background-color: #CE9898;
+    border-radius: 35px;
+    margin-left: -90px;
+}
+
+.container2 {
+    
+}
