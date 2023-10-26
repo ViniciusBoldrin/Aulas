@@ -207,8 +207,8 @@ header {
  }
 
  .quadrados {
-    width: 249px;
-    height: 182px;
+    width: 100%;
+    height: auto;
     background-color: #f5f5f5;
     display: flex;
     padding: 24px 16px 24px 16px;
@@ -216,13 +216,43 @@ header {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    flex: 1 0 0;
     border-radius: 8px;
     color: #000;
     font-family: sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-align: center;
  }
+
+.grid-destinos {
+    display: flex;
+    margin: 0px 120px 0px 120px;
+}
+
+.grid-toquio {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-right: 24px;
+}
+
+.grid-osaka {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.grid-destinos h3 {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.grid-destinos p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    
+}
