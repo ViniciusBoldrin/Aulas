@@ -300,3 +300,97 @@ header {
     gap: 24px;
 }
 
+.grid-depoimentos {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 120px 0px 120px;
+    gap: 24px;
+    align-items: center;
+    text-align: left;
+}
+
+.depoimento {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+}
+
+.depoimentos p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.foto-avaliacao {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.nome-estrelas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.estrela {
+    width: 32px;
+    height: 32px; 
+}
+
+.img-rodape {
+    height: 600px;
+    align-self: stretch;
+    width: 100%;
+    margin-top: 104px;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 120px;
+}
+
+.logo-esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.logo-esquerda img {
+    width: 161.839px;
+    height: 40px;
+    
+}
+
+.logo-esquerda p {
+    font-family: sans-serif;
+    color: var(--Neutral-C, #F5F5F5);
+    font-size: 16px;
+}
+
+.icons-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.icons-direita p {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    gap: 8px;
+
+}
+
+.icon-tamanho {
+    width: 32px;
+    height: 32px;
+}
