@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    width: 94%;
+    height: 88px;
+    position: relative;
+    top: 0;
+    padding: 0px 50px;
+}
+
+.logo-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+    align-items: center;
+    text-align: center
+}
+
+.logo-menu h1 {
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+    border-left: 2px solid white;
+    padding-left: 20px;
+}
+
+.botoes-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.submit {
+    display: inline-block;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sign-in {
+    display: inline-block;
+    border: none;
+    background-color: #4C5FD5;
+    color: white;
+    font-size: 24px;
+    padding: 16px 34px;
+    border-radius: 10px;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: column;
+    padding: 80px 30px 115px 30px;
+    background-color: #dadbf1;
+    height: 201px;
+}
+
+.texto-buscar h1 {
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: -4px;
+    align-items: center;
+}
+
+.search-container{
+    width: 400px;
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  
+  input#search-bar{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid black;
+    outline: none;
+    &:focus{
+      border: 1px solid #008ABF;
+      transition: 0.35s ease;
+      color: #008ABF;
+      &::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &:-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+       }    
+     }
+   }
+  
+  .search-icon{
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
+  }
+
+
