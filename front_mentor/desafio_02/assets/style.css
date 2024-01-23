@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: Young;
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--Eggshell, #F3E5D7);
+    padding-top: 123px;
+    padding-bottom: 123px;
+}
+
+.paleta {
+    width: 45%;
+    background: var(--White, #FFF);
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.paleta_tudo_menos_imagem {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.imagem {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.barra {
+    width: 100%;
+    height: 1px;
+    background: #E3DDD7;
+}
+
+.texto_01 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.texto_01 h1 {
+    color: var(--Dark-Charcoal, #312E2C);
+    font-family: Young;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.texto_01 p {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size-adjust: 16px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.preparation {
+    background: var(--Snow, #FFF7FB);
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 12px;
+}
+
+.preparation h2 {
+    color: var(--Dark-Raspberry, #7A284E);
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.preparation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 25px;
+}
+
+.preparation span {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-left: 20px;
+}
+
+.preparation li {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.ingredientes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.ingredientes h2 {
+    color: var(--Brandy-Red, #854632);
+    font-family: Young;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.ingredientes ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 20px;
+}
+
+.ingredientes li {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.instrucoes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.instrucoes h2 {
+    color: var(--Brandy-Red, #854632);
+    font-family: Young;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.instrucoes ol {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 20px;
+}
+
+.instrucoes span {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.instrucoes li {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.nutricao {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.nutricao h2 {
+    color: var(--Brandy-Red, #854632);
+    font-family: Young;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.nutricao p {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.nutricao_lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.nutricao_lista_infos {
+    display: flex;
+    gap: 16px;
+    padding: 0px 32px;
+    align-items: center;
+}
+
+.nutricao_texto {
+    flex: 1 0 0;
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.nutricao_info {
+    flex: 1 0 0;
+    color: var(--Brandy-Red, #854632);
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .paleta {
+        width: 100%;
+        padding: 0px;
+    }
+    .paleta_tudo_menos_imagem {
+        padding-top: 40px;
+        padding-inline: 32px;
+        padding-bottom: 40px;
+    }
+}
