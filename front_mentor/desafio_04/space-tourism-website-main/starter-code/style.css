@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Bellefair;
+    src: url(assets/fonts/Bellefair/Bellefair-Regular.ttf);
+}
+
+@font-face {
+    font-family: Barlow;
+    src: url(assets/fonts/Barlow/BarlowCondensed-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: url(assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
